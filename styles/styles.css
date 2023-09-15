@@ -70,9 +70,11 @@
     cursor: pointer;
     transition: .15s;
 }
-.button:hover{
+
+.button:hover {
     background-color: #c53939;
 }
+
 .kinobox_player {
     width: 100%;
     margin: auto 0;
@@ -80,13 +82,15 @@
     border-radius: 10px;
     overflow: hidden;
 }
-.link{
+
+.link {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600px;
 }
+
 /* footer */
-.footer-container{
+.footer-container {
     margin-top: auto;
     margin-bottom: 20px;
     display: flex;
@@ -99,8 +103,10 @@
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    user-select: none;
 }
-.info{
+
+.info {
     width: 100%;
     display: flex;
     align-items: center;

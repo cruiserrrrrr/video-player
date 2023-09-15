@@ -1,4 +1,3 @@
-"use stric";
 const inputElement = document.getElementById("inputSearch");
 const buttonElement = document.getElementById("buttonSearch");
 new Kinobox('.kinobox_player', { search: { query: !!inputElement.value ? inputElement.value : "Титаник" } }).init()
